@@ -1,0 +1,66 @@
+temat: nie wszystko jest takie oczywiste czyli jak działa internet
+#internet - sieć rozległa łącząca mniejszwe sieci umożliwiająca wymianę danych między urzytkownikami
+sieć globalna WAN(wight area network) - sieć komputerowa znajdująca sie na obrzszaże wykraczającym poza miaasto, kraj, kontynent
+sieć lokalna lan-sieć komputerowa łącząca komputery na określonym obszarze blok, szkoła, biuro
+wyrużniamy 2 podstawowe urządzenia sieciowe switch i router
+
+temat:sieć to nie tylko internet, poznajemy topologię sieci komputerowych
+1)wyrózniamy topologie fizyczne i logiczne sieci. 
+@topologia fizyczna - określa, w jaki sposób urządzenia i hosty są ze sobą połączone.
+@topologia logiczna - opisuje, w jaki sposób przesyłane są dane pomiędzy urządzeniami sieciowymi i hostami.
+
+A)topologie fizyczne:
+#Magistrali (ang. Bus)
+-urządzenia podłącza się do wspólnego medium transmisyjnego(kabel koncetryczny)
+	*zalety:
+	 -niskie drożenie(brak uządzeń dostepowych)
+	*wady:
+	 -duża podatność na awarię sieci
+	 -mała przepustowość
+#Pierścienia (ang. Ring)
+-każde urządzenie podłączone jest z dwoma sąsiadami, tworząc zamknięty krąg.(kabel koncetryczny)
+	*zalety:
+	 -mała ilośc okablowania
+	 -niskie drożenine
+	*wady:
+	 -podatność na awarie(przerwanie medium transmisyjnego lub awaria hosta = brak internetu)
+#Gwiazdy (ang. Star).
+-rządzenia podłączone są do centralnego punktu, stanowiącego punkt dostępu do sieci(router, switch). 
+	*zalety:
+	 -odporna na awarie
+	 -prosta do zaprojektowania
+	 -łatwa administracja siecią
+	*wady:
+	 -droga w rozbudowaniu(dodatkowe urzędzenia)
+	 -zależność od urządzeń sieciowych
+#Gwiazdy rozszerzonej(ang. Star).
+	*zalety:
+	 -łączenie ze soba mniejchych sieći
+	 -odporność na awarie
+	*wady:
+	 -droga w rozbudowaniu(konieczność dodatkowe urzędzenia)
+	 -więcej miejsca zajmuje
+	 -więcej prądu
+	 -ograniczona liczba kabli
+#P2P
+
+
+
+topologie logiczne:
+#Punkt-punkt,
+#Przekazywania żetonu,
+#Wielodostępową.
+
+#punkt-punkt - dane przesuwane z jednego urządzenia do grugiego np komputer a przenośnikiem pośrednio np. rutery
+ wykorzystuje się nią w topologi fizycznej gwiazdy
+
+#Przekazywania żetonu,(tokken passing)- dane są przekazywane są kolejno do urządzenia połączonych w sieć.kolejno urzadzenia 
+sprawdzają czy to ich dane a jak nie przekazują dalej. wszystkie urządzenia są połączone pomiędzy urządzeniem żródłowym a docellowym
+
+
+
+
+
+
+
+
