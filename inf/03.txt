@@ -57,6 +57,8 @@ topologie logiczne:
 #Przekazywania żetonu,(tokken passing)- dane są przekazywane są kolejno do urządzenia połączonych w sieć.kolejno urzadzenia 
 sprawdzają czy to ich dane a jak nie przekazują dalej. wszystkie urządzenia są połączone pomiędzy urządzeniem żródłowym a docellowym
 
+#wielodostępowa - umożliwia komunikację urządzeń w sieci poprzez jedno fizyczne medium transmisyjne.wykorzystywana w topologi fizycznej magistrali.
+
 
 
 
