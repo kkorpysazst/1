@@ -45,7 +45,6 @@ A)topologie fizyczne:
 #P2P
 
 
-
 topologie logiczne:
 #Punkt-punkt,
 #Przekazywania żetonu,
@@ -59,6 +58,19 @@ sprawdzają czy to ich dane a jak nie przekazują dalej. wszystkie urządzenia s
 
 #wielodostępowa - umożliwia komunikację urządzeń w sieci poprzez jedno fizyczne medium transmisyjne.wykorzystywana w topologi fizycznej magistrali.
 
+
+02. MODELE WARSTWOWE ISO/OSI I TCP/IP
+OSI(open system interconnection reference model)- został stworzony w celu normalizacji zasad komunikacji w sieci. model ten został przygotowany z myśłą o tworzeniu systemu otwartego, który nie będzie należał do żadnej zamkniętej sieci model ten jest poglądowy 
+(teoretycznym) i został podzielony na 7 warstw:
+	*7(warstwa 7 jest pierwsza) warstwa aplikacji - umożliwia komunukacja z użytkownikiem(WWW, poczta elektroniczna) 
+	*6 warstwa prezentacji- przekazuje do warstwy aplikacji informacje o zastosowanym formacie danych oraz konwersja danych, również za odpowiednie kodowanie(szyfrowanie) danych na urządzeniu źródłowym i ich dekodowanie(odszyfrowanie) na urządzeniu docelowym
+(szyfruje, i sprawdza format plików)
+	*5 warstwa sesji - zarządzająca sesjami użytkowników korzystających np. ze stron WWW czy komunikacji video.
+	*4 warstwa transportu - głównym zadaniem jest sprawna obsługa komunikacji pomiędzy urządzeniami. W warstwie tej dane dzielone są na mniejsze części(segmentowanie), a następnie opatrywane są dodatkowymi informacjami min nadawane są numery
+porządkowe pozwalającymi zarówno przydzielić je do właściwej aplikacji
+	*3 warstwa sieci - segmęty danychn są wzbogadzane o nagłówki sieci nawierające adres ip, żródła i celu. w ten sposów tworzy się pakiety danych. głównym zadaniem jest wybieranie najlepszej drogi od nadawcy do odbiorcy dla stworzonych w niej pakietów 
+	*2 warstwa 
+	*1(ostatnia)
 
 
 
