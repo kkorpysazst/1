@@ -60,6 +60,9 @@ sprawdzają czy to ich dane a jak nie przekazują dalej. wszystkie urządzenia s
 
 
 02. MODELE WARSTWOWE ISO/OSI I TCP/IP
+	
+	A)ISO/OSI
+
 OSI(open system interconnection reference model)- został stworzony w celu normalizacji zasad komunikacji w sieci. model ten został przygotowany z myśłą o tworzeniu systemu otwartego, który nie będzie należał do żadnej zamkniętej sieci model ten jest poglądowy 
 (teoretycznym) i został podzielony na 7 warstw:
 	*7(warstwa 7 jest pierwsza) warstwa aplikacji - umożliwia komunukacja z użytkownikiem(WWW, poczta elektroniczna) 
@@ -69,9 +72,16 @@ OSI(open system interconnection reference model)- został stworzony w celu norma
 	*4 warstwa transportu - głównym zadaniem jest sprawna obsługa komunikacji pomiędzy urządzeniami. W warstwie tej dane dzielone są na mniejsze części(segmentowanie), a następnie opatrywane są dodatkowymi informacjami min nadawane są numery
 porządkowe pozwalającymi zarówno przydzielić je do właściwej aplikacji
 	*3 warstwa sieci - segmęty danychn są wzbogadzane o nagłówki sieci nawierające adres ip, żródła i celu. w ten sposów tworzy się pakiety danych. głównym zadaniem jest wybieranie najlepszej drogi od nadawcy do odbiorcy dla stworzonych w niej pakietów 
-	*2 warstwa 
-	*1(ostatnia)
+	*2 warstwa łącza danych-głównym zadaniem jest wykrywanie i poprawiaie błędów na które naraożna jest komunikacja sieci. dodatkowo zajmuje się podziałem wysyłanego pakietu na ramki które posiadają informacje o architektórze sieci.
+	*1(ostatnia) fizyczna - koduje dane do postaci czystych bitów (zer i jedynek) i przesyła je poprzez medium transmisyjne do odpowiednich urządzeń.
+Enkapsulacja - jest to przechodzenie (zamiana )danych z warstwy wyższej do warstwy niższej
 
+	B)TCP/IP
+
+#warstwa aplikacji(warstwa sescji+warstwa prezentacji+warstwa aplikacji w modelu ISO)-zajmuje się reprezentacją danych dal użytkownika oraz ich kodowanie.
+#warstwa transportowa(warstwa transportowa w modelu ISO)-zapewnia komunikację pomiędzy różnymi użądzeniami sieci.
+#warstwa internetu(warstwa sieci w modelu ISO) - zapewnia najlepszą pracę dla przepływu pakietów
+#warstwa dostepu do sieci(warstwa fizyczna i warstwa łącza danych w modelu ISO)- kontroluje użądzenia fizyczne i media
 
 
 
