@@ -83,8 +83,14 @@ Enkapsulacja - jest to przechodzenie (zamiana )danych z warstwy wyższej do wars
 #warstwa internetu(warstwa sieci w modelu ISO) - zapewnia najlepszą pracę dla przepływu pakietów
 #warstwa dostepu do sieci(warstwa fizyczna i warstwa łącza danych w modelu ISO)- kontroluje użądzenia fizyczne i media
 
-
-
-
+Temat: protokoły modeli warstwowych
+-DNS(domein Name system)-jest używany do odwzorowania nazw w internecie na adresy ip.
+-http( Hypertext Transfer Protocol)-przesyłanie plików hipertekstowych , czyli stron www
+-https( Hypertext Transfer Protocol Secure)-szyfrowana wersja protokołu http.
+-SMTP(Simple Mail Transfer Protocol)- używany do przesyłania wiadomości poczty elektronicznej wraz z załącznikami
+-IMAP (Internet Message Access Protocol) –rotokół używany do odbioru poczty elektronicznej, pozwala również na zarządzanie zdalnymi folderami znajdującymi się na serwerze,
+-Telnet (Telecommunication Network) – protokół używany do obsłógi terminala zdalnego urządządzenia,
+-FTP (File Transfer Protocol) – protokół używany do przesyłania plików pomiędzy kientem a serwerem FTP
+-SSH (Secure Shell) — protokół używany do emulacji(symulacji działania) terminala sieciowego zapewniający szyfrowanie połączenia,
 
 
