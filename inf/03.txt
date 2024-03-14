@@ -93,4 +93,59 @@ Temat: protokoły modeli warstwowych
 -FTP (File Transfer Protocol) – protokół używany do przesyłania plików pomiędzy kientem a serwerem FTP
 -SSH (Secure Shell) — protokół używany do emulacji(symulacji działania) terminala sieciowego zapewniający szyfrowanie połączenia,
 
+temat funkcje urządzeń i protokoły>
+urządzenia niezbędne do obsługi  i funkcjonowania sieci możemy podzielić na 3 grupy:
+-urządzenia transmisji - są wykorzystywne i przeznaczone do transportu sygnału biegnącego przez sieć(przewód sieciowy tak zwana skrętka, światłowód)
+-urządzenia dostępu - odpowiedzialne za przygotowywanie danych do przesyłu sieci(karta sieciowa, switch, router)
+-urządzenia wzmacniania sygnałów - (ekspander zasięgu wifi)
+
+temat: powtórzenie wiadomości
+	teamt 1:
+-pojęcie internetu
+-co to jest sieć WAN
+-co to jest sieć LAN
+-opis podstawowych elementów instalacji (router, switch)
+-co to jest protokół IP I PCP
+-co to jest adres sieciowy statyczny(przypisany) i dynamiczny(zależny od serwera)
+-co to jest protokół DHCP
+-instytucje czuwające nad przyznawaniem IP
+-podstawowe narzędzi diagnostyczne sieci(np. ping www.wp.pl) :
+	-ping  
+	-tracert
+	-ipconfig (szczegółowe informacje o połączeniu sieciowym)
+-co to jest adres fizyczny(adres MAC)
+-jak zbudowane jest adres ip w wersji 4
+-co to jest brama domyślna połączenia sieciowego
+-popularne ataki sieciowe(rodzajen[.(snifing, puffing, dedos))
+-topologie fizyczne oprócz P2P 4
+-topologie logiczne 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
