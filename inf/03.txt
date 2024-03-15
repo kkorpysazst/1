@@ -117,8 +117,12 @@ temat: powtórzenie wiadomości
 -jak zbudowane jest adres ip w wersji 4
 -co to jest brama domyślna połączenia sieciowego
 -popularne ataki sieciowe(rodzajen[.(snifing, puffing, dedos))
--topologie fizyczne oprócz P2P 4
+-topologie fizyczne oprócz P2P (4)(zalety i wady)
 -topologie logiczne 3
+-warstwy modelu iso/osi
+-warstyw modelu TCP/IP(które z iso wchodzą w tcp)
+-podzaiał urządzeń siećiowych
+-protokoły warstw aplikacji(bez nfs i pop3)
 
 
 
